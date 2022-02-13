@@ -1,0 +1,31 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card{
+        width: 31.2rem;
+        background-color: $White;
+        border-radius: 2rem;
+    }
+    .hero{
+        width: 90%;
+        margin: 1.5rem;
+        border-radius: 1rem;
+    }
+    .article{
+        color: $Dark-blue;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2.2rem;
+        margin: 5px 20px 0px 20px;
+    }
+    .more{
+        color: $Grayish-blue;
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 15px 24px;
+        margin-bottom: 40px;
+    }
+}
